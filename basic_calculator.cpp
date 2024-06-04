@@ -74,9 +74,6 @@ public:
 int main() {
     Calculator* calc = new Calculator();
     calc->RunCalculator();
-    
-    if (calc != nullptr) {
-        delete calc;
-        calc = nullptr;
-    }
+    delete calc;
+
 }
