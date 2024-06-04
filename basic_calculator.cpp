@@ -74,5 +74,6 @@ public:
 int main() {
     Calculator* calc = new Calculator();
     calc->RunCalculator();
+    delete calc;
 
 }
