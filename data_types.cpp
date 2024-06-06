@@ -30,4 +30,16 @@ int main() {
     cout << b << endl;
 
 
+    // SIZE OF DATA TYPES
+    cout << "Size of int is " << sizeof(int) << endl;
+    cout << "Size of signed int is " << sizeof(signed int) << endl;
+    cout << "Size of unsigned int is " << sizeof(unsigned int) << endl;
+    cout << "Size of long int is " << sizeof(long int) << endl;
+    cout << "Size of short int is " << sizeof(short int) << endl;
+    cout << "Size of float is " << sizeof(float) << endl;
+    cout << "Size of double is " << sizeof(double) << endl;
+    cout << "Size of char is " << sizeof(char) << endl;
+    cout << "Size of boolean is " << sizeof(bool) << endl;
+
+
 }
